@@ -23,7 +23,9 @@ public class SeparateString {
 
 	public static void main(String[] args) {
 		String str = "HiPankajMySurnameIsDevgade";
-		System.out.println(findString(str));
+		//System.out.println(findString(str));
+		str=str.replaceAll("([A-Z])"," $1");
+		System.out.println(str.trim().toLowerCase());
 	}
 
 }
