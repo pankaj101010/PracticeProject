@@ -1,6 +1,6 @@
 package com.practice;
 
-public class NumberStarPattern {
+public class NumberTrianglePattern {
 	    static int x = 1;
 	    static int y =1;
 	public static void main(String[] args) {
