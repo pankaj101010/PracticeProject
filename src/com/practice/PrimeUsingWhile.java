@@ -4,7 +4,7 @@ public class PrimeUsingWhile {
 
 	public static void main(String[] args) {
 		int n = 2;
-		while (n <=50) {
+		while (n <=100) {
 			int m=2;
 			while ( m <=n) {				
 				if (n==m) {
