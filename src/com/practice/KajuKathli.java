@@ -18,21 +18,20 @@ public class KajuKathli {
         		 break;
         	 }
          }
-         for (int j =1; j <=n; j++) {
-			for (int i = j; i <=n/2+1; i++) {
+         for (int line =1; line <=n; line++) {
+			for (int space = line; space <=n/2+1; space++) {
 				System.out.print(" ");
 			}
-				if (j<=n/2+1) {
-					for (int k = 1; k<=j; k++) {
-						
+				if (line<=n/2+1) {
+					for (int k = 1; k<=line; k++) {			
 						System.out.print("$ ");
 				}
 			}
 				else {
-					for (int k = 1; k <=j-n/2; k++) {
+					for (int space = 1; space <=line-n/2; space++) {
 						System.out.print(" ");
 					}
-					for (int x =1; x <=n-j+1; x++) {
+					for (int x =1; x <=n-line+1; x++) {
 						System.out.print("$ ");
 					}
 					
